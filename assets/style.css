@@ -42,6 +42,7 @@ body {
 nav{
     font-family: var(--fontBody);
 }
+
 .imgAbsolute{
     z-index: -1;
     position:absolute;
@@ -59,17 +60,46 @@ nav{
     object-fit: cover;
 
 }
-.testoTitolo{
-    justify-self: center;
-    flex:1;
-    height: 100%;
-    
-}
 
-h1{
-    font-size: 4rem;
-    margin-top:0.25em;
-}
 .headerImgSpace span{
     font-style: italic;
+}
+
+.description{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* justify-self: center;
+    flex:1; */
+    height: 100%;
+}
+
+
+.title {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.current{
+    width: 100%;
+    height: 100%;
+    display: block !important;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel {
+    position: static;
+    width: 100%;
+    height: 100%;
 }
